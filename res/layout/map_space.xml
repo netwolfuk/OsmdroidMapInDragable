@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/map_space"
+    >
+    <org.osmdroid.views.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true"
+        android:background="#00666699"
+    />
+    <TextView 
+    	android:layout_height="100dp"
+    	android:layout_width="fill_parent"
+    	android:layout_gravity="left|bottom"
+    	android:background="#99000000"
+    	android:gravity="center"
+    	android:text="Drag me"
+    	android:id="@+id/dragbar"
+    	/>
+</FrameLayout>
